@@ -1,0 +1,7 @@
+{
+  "adventures":[{"id":"sdg12-addis","title":"A city of possibilities","sdg":12,"city":"Addis Ababa","country":"Ethiopia"}],
+  "locations":[{"id":"market","adventure_id":"sdg12-addis","title":"Neighborhood Market","fictional":true},{"id":"sorting","adventure_id":"sdg12-addis","title":"Community Sorting Station","fictional":true}],
+  "lessons":[{"id":"prevention","location_id":"market","title":"Before the bin","objectives":["Distinguish prevention from waste management","Connect packaging choices to waste generation"],"skill_ids":["environment","critical"]},{"id":"systems","location_id":"sorting","title":"Beyond the bin","objectives":["Connect separation, collection, and processing","Recognize service-specific acceptance rules"],"skill_ids":["systems","planning"]}],
+  "skills":[{"id":"systems","title":"Systems thinking"},{"id":"environment","title":"Environmental literacy"},{"id":"critical","title":"Critical thinking"},{"id":"research","title":"Research"},{"id":"planning","title":"Project planning"}],
+  "resources":[{"id":"un12","lesson_id":"prevention","title":"UN Sustainable Development Goal 12","url":"https://sdgs.un.org/goals/goal12","category":"general-background"}]
+}
